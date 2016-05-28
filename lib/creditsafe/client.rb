@@ -8,10 +8,10 @@ require 'creditsafe/messages'
 module Creditsafe
   class Client
     XMLNS_OPER = 'oper'.freeze
-    XMLNS_OPER_VAL = 'http://www.creditsafe.com/globaldata/operations'.freeze
+    XMLNS_OPER_VAL = 'http://testwebservices.creditsafe.com/globaldata/operations'.freeze
 
     XMLNS_DAT = 'dat'.freeze
-    XMLNS_DAT_VAL = 'http://www.creditsafe.com/globaldata/datatypes'.freeze
+    XMLNS_DAT_VAL = 'http://testwebservices.creditsafe.com/globaldata/datatypes'.freeze
 
     XMLNS_CRED = 'cred'.freeze
     XMLNS_CRED_VAL =
